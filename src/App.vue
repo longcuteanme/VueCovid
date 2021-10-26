@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen" id="app">
+  <div class="w-screen h-screen bg-yellow-300" id="app">
     <Loading v-if="false"/>
     <Header/>
     <router-view></router-view>
