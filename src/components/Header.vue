@@ -21,7 +21,7 @@
           </ul>
         </td>
         <td id="search" class="w-1/3">
-            <a-input-search placeholder="input search text" style="width: 200px" @search="onSearch" />
+            <a-input-search placeholder="input search text" style="width: 300px" @search="onSearch" />
         </td>
       </thead>
     </table>

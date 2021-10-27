@@ -21,7 +21,7 @@
     <div class="overflow-auto" style="height: 60vh">
       <table class="w-full h-auto max-h-screen text-center">
         <tbody>
-          <tr v-for="country in Countries" :key="country.ID">
+          <tr v-for="country in Countries" :key="country.ID">         
             <td
               v-for="dataKey in dataKeys"
               :key="dataKey.key"

@@ -20,7 +20,7 @@
           
           <!-- new Case -->
           <div class="text-center">
-            <div class="inline-block p-3 m-0 bg-yellow-400 rounded-full icon">
+            <div class="inline-block p-3 m-0 bg-yellow-400 rounded-full hover:bg-yellow-500 icon">
               <a-icon type="plus" />
             </div>
             <h1 class="mt-3 mb-0 text-2xl font-bold text-white">New cases</h1>
@@ -29,7 +29,7 @@
 
           <!-- Confirmed case -->
           <div class="text-center">
-            <div class="inline-block p-3 m-0 bg-blue-400 rounded-full icon">
+            <div class="inline-block p-3 m-0 bg-blue-400 rounded-full hover:bg-blue-500 icon">
               <a-icon type="exclamation" />
             </div>
             <h1 class="mt-3 mb-0 text-2xl font-bold text-white">Confirmed</h1>
@@ -38,7 +38,7 @@
 
           <!-- Recovered case -->
           <div class="text-center">
-            <div class="inline-block p-3 m-0 bg-green-400 rounded-full icon">
+            <div class="inline-block p-3 m-0 bg-green-400 rounded-full hover:bg-green-500 icon">
               <a-icon type="check" />
             </div>
             <h1 class="mt-3 mb-0 text-2xl font-bold text-white">Recovered</h1>
@@ -47,7 +47,7 @@
 
           <!-- Death case -->
           <div class="text-center">
-            <div class="inline-block p-3 m-0 bg-red-400 rounded-full icon">
+            <div class="inline-block p-3 m-0 bg-red-400 rounded-full hover:bg-red-500 icon">
               <a-icon type="close" />
             </div>
             <h1 class="mt-3 mb-0 text-2xl font-bold text-white">Deaths</h1>
@@ -106,7 +106,7 @@ export default {
   background-image: url("../assets/worldMap.png");
 }
 .icon {
-  box-shadow: 0px 0px 5px white;
+  box-shadow: 0px 0px 3px white;
 }
 .icon >>> .anticon {
   margin: 0px;
