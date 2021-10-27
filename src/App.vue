@@ -1,8 +1,8 @@
 <template>
-  <div class="w-screen h-screen bg-yellow-300" id="app">
-    <Loading v-if="false"/>
+  <div class="w-screen h-auto bg-gray-800" id="app">
+    <Loading v-if="loading"/>
     <Header/>
-    <router-view></router-view>
+    <router-view class="pt-24"></router-view>
     <Footer/>
   </div>
 </template>
@@ -14,6 +14,11 @@ import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
+  computed:{
+    loading(){
+      return this.$store.state.loading
+    }
+  },
   components: {
     Loading,
     Header,

@@ -11,6 +11,9 @@ export default {
 </script>
 
 <style scoped>
+#loadingDiv{
+    z-index: 9999;
+}
 img{
     display: inline-block;
     width:10vw;
