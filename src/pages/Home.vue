@@ -1,5 +1,5 @@
 <template>
-  <div id="Home" class="min-h-screen">
+  <div id="Home">
     <div
       id="worldMap"
       class="w-full h-full min-h-screen bg-top bg-no-repeat bg-contain"
